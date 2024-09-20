@@ -9,3 +9,8 @@ alert(`Abaixo do peso`)
     alert(`Peso ideal`)
     }if(imc>30)
 alert(`Acima do peso`)
+
+
+
+
+console.log (`Codigo novo`)
