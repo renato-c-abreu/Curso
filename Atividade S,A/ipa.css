@@ -1,0 +1,16 @@
+h1{
+    text-align: center;
+    color: whitesmoke;
+    background-color: black;
+}
+img{
+    width: 300px;   
+}
+h2{
+    margin-left: 35px;
+}
+p{
+    margin-right: 1000px;
+    margin-left: 35px;
+    background-color: rgb(5, 148, 53);
+}
