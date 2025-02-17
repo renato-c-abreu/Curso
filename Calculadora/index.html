@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="ex1.js"></script>
+</head>
+
+<body>
+    <h1>Calculador SENAI</h1>
+    <hr>
+    <br>
+    <h2>Digite 2 numeros e escolha a operação Aritmética</h2>
+    <br>
+    <input type="text" id="inp1">
+    <br>
+    <br>
+    <input type="text" id="inp2">
+    <br>
+    <br>
+    <label for="oper">Escolha a operação:</label>
+    <select name="oper" id="oper">
+        <option value="+">Soma</option>
+        <option value="-">Subtração</option>
+        <option value="*">Multiplicação</option>
+        <option value="/">Divisão</option>
+    </select>
+    <br>
+    <br>
+    <button onclick="calculaNs()">Executar</button>
+    <br>
+    <br>
+    <h2>__________________</h2>
+    <h2 id="result"></h2>
+</body>
+
+</html>
